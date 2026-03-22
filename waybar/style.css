@@ -1,0 +1,168 @@
+@import "mocha.css";
+
+* {
+  font-family: FiraCode Nerd Font;
+  font-size: 12px;
+  min-height: 0;
+}
+
+button {
+  /* Use box-shadow instead of border so the text isn't offset */
+  box-shadow: inset 0 -3px transparent;
+  /* Avoid rounded borders under each button name */
+  border: none;
+  border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+  background: inherit;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#waybar {
+  background: @surface0;
+  color: @text;
+  margin: 0;
+}
+
+#workspaces {
+  border-radius: 0;
+  padding: 0.25em 0.5em;
+  margin: 0;
+  background-color: @surface0;
+}
+
+#workspaces button {
+  color: @blue;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+#workspaces button.active {
+  color: @blue;
+}
+
+#workspaces button:hover {
+  box-shadow: none; /* Remove predefined box-shadow */
+  text-shadow: none; /* Remove predefined text-shadow */
+  background: transparent;
+  transition: none; /* Disable predefined animations */
+  border-color: transparent;
+  color: @blue;
+}
+
+#window {
+  color: @blue;
+  background-color: @surface0;
+  border-radius: 0;
+  padding: 0.25rem 1rem;
+  margin: 0;
+}
+
+#idle_inhibitor,
+#network,
+#cpu,
+#temperature,
+#custom-gpu-temp
+#memory,
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power,
+#language {
+  background-color: @surface0;
+  padding: 0.25rem 0.5rem;
+  margin: 0;
+}
+
+#idle_inhibitor {
+  color: @pink;
+  border-radius: 0;
+}
+
+#network {
+  color: @peach;
+}
+
+#cpu,
+#temperature {
+  color: @yellow;
+}
+
+#custom-gpu-temp {
+  color: @yellow;
+}
+
+#memory {
+  color: @yellow;
+}
+
+#clock {
+  color: @sky;
+}
+
+#language {
+  color: @green;
+}
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#backlight, #battery {
+  border-radius: 0;
+}
+
+#pulseaudio {
+  color: @red;
+}
+
+#custom-music {
+  color: @mauve;
+  border-radius: 0;
+}
+
+#custom-lock {
+  border-radius: 0;
+  color: @lavender;
+}
+
+#custom-power {
+  margin-right: 10px;
+  border-radius: 0;
+  color: @blue;
+}
+
+#tray {
+  color: @sky;
+}
+
+#custom-bluetooth {
+  color: @blue;
+  padding: 0 8px;
+}
+
+#custom-logo {
+  border-radius: 0;
+  padding: 0.25em 0.5em;
+  margin: 0;
+  background-color: @surface0;
+  color: @blue;
+}
