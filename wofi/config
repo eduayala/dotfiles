@@ -1,0 +1,10 @@
+# mode=drun
+lines=10
+height=400
+width=600
+# outer-margin=0
+# inner-margin=0
+term=kitty
+# font=FiraCode Nerd Font 12
+# allow_images=true
+style=/home/eduayala/.config/wofi/style.css
