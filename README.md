@@ -1,10 +1,10 @@
-# ⚙️ My Dotfiles & Configurations
+# My Dotfiles & Configurations
 
 Welcome to my personal dotfiles repository! This is where I store and manage my configuration files for various applications, my OS, and other settings. The goal is to keep them organized, version-controlled, and easily deployable across different machines. Feel free to explore, borrow, or adapt any of these configurations for your own setup!
 
 ---
 
-## ✨ Currently Configured Applications
+## Currently Configured Applications
 
 Here's a list of applications and tools whose configurations you'll find in this repository:
 
@@ -12,7 +12,7 @@ Here's a list of applications and tools whose configurations you'll find in this
 
 ---
 
-## 🙏 Credits & Acknowledgements
+## Credits & Acknowledgements
 
 A big thank you to the open-source projects and communities that make these configurations possible and aesthetically pleasing:
 
@@ -23,7 +23,7 @@ A big thank you to the open-source projects and communities that make these conf
 
 ---
 
-## 🗓️ Dates
+## Dates
 
 * **Created:** June 10, 2025
-* **Last Updated:** June 10, 2025
+* **Last Updated:** March 22, 2026
